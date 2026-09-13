@@ -1,5 +1,6 @@
 public class Level1 {
     String appName = "MyApp";
+    String version = "1.0";
 
     String name = "Anna";
     int age = 25;
@@ -47,6 +48,18 @@ public class Level1 {
         System.out.println("ITEMS:\nTomato\nCoffee\nDeez");
         printThankYou();
         */
+
+    //del E
+        //opgave 1.35
+        //printHeader();
+
+        //opgave 1.36
+       //printSection();
+
+    //Del F
+        //opgave 1.41
+        showStartup();
+
     }
 
     void printHello(){
@@ -89,5 +102,45 @@ public class Level1 {
     }
     void printThankYou(){
         System.out.println("Thank you for your purchase ★");
+    }
+
+    void printDash(){
+        System.out.print("-");
+    }
+    void printHeader(){
+        for (int i = 1; i<=5;i++){
+            printDash();
+        }
+        System.out.print("HEADER");
+        for (int i = 1; i<=5;i++){
+            printDash();
+        }
+    }
+
+    void printDivider(){
+        System.out.println("==============");
+    }
+    void printSpacing(){
+        System.out.println();
+    }
+    void printSection(){
+        printDivider();
+        printSpacing();
+        System.out.println("Content");
+        printSpacing();
+        printDivider();
+    }
+
+    void printWelcome(){
+        System.out.println("Welcome to the app!");
+    }
+    void printAppInfo(){
+        System.out.println(appName + " " + version);
+    }
+    void showStartup(){
+        printDivider();
+        printAppInfo();
+        printDivider();
+        printWelcome();
     }
 }

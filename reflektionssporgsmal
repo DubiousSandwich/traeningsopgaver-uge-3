@@ -1,0 +1,35 @@
+## level 1
+Hvad er fordelen ved at bruge metoder fremfor at skrive alt i main?
+- main bliver meget mere clean at se på, og man behøver ikke at gentager kode. 
+
+Hvordan hjælper metoder med at organisere dit program?
+
+- man slipper for at gentager store mængder kode, og kan altid finde den i bunden af koden. 
+
+Hvad sker der hvis du glemmer at kalde en metode?
+
+- ikke noget? metoden kan ikke gøre noget hvis den ikke er blevet kaldt?
+
+Hvordan kan metoder kalde andre metoder?
+
+- man kan kalde den lige som i main, fordi main også er en metode?
+
+Hvornår skal du lave en ny metode?
+
+- når koden skal gøre noget som man gerne vil have separeret fra et andet stykke kode. så man kan kalde den uafhængigt?
+
+Hvorfor er det vigtigt at give metoder beskrivende navne?
+
+- så man ved hvad den gør, kan redigere og læse koden
+
+Hvordan gør metoder det lettere at ændre dit program senere?
+
+- i stedet for at søge febrilsk i main hvor et stykke kode måske er gentaget en milliard gange kan du bare finde metoden og redigere i den. 
+
+Hvad er forskellen mellem at definere en metode og at kalde den?
+
+- definere fortæller hvad metoden skal gøre, kalde den så får du den til at gøre det den skal gøre.
+
+***
+
+## level 2
